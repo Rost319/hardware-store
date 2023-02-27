@@ -491,3 +491,5 @@ C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Index.
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\Summary.cshtml.g.cs
 C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\Mailjet.Client.dll
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Cart\InquiryConfirmation.cshtml.g.cs
+C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\Rocky_Utility.dll
+C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\Rocky_Utility.pdb
