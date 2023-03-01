@@ -5,7 +5,11 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rocky", "Rocky\Rocky.csproj", "{DC986B1F-2A7D-4767-9347-8863E67F56A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocky_Utility", "Rocky_Utility\Rocky_Utility.csproj", "{B031BE32-1959-4D3C-8B35-3BE5854B9A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rocky_Utility", "Rocky_Utility\Rocky_Utility.csproj", "{B031BE32-1959-4D3C-8B35-3BE5854B9A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocky_Models", "Rocky_Models\Rocky_Models.csproj", "{A8876C11-8260-4B91-B1E9-48639649D2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rocky_DataAccess", "Rocky_DataAccess\Rocky_DataAccess.csproj", "{764CE6B4-E302-4354-A297-C196B3E81B2B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{B031BE32-1959-4D3C-8B35-3BE5854B9A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B031BE32-1959-4D3C-8B35-3BE5854B9A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B031BE32-1959-4D3C-8B35-3BE5854B9A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8876C11-8260-4B91-B1E9-48639649D2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8876C11-8260-4B91-B1E9-48639649D2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8876C11-8260-4B91-B1E9-48639649D2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8876C11-8260-4B91-B1E9-48639649D2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{764CE6B4-E302-4354-A297-C196B3E81B2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{764CE6B4-E302-4354-A297-C196B3E81B2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{764CE6B4-E302-4354-A297-C196B3E81B2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{764CE6B4-E302-4354-A297-C196B3E81B2B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
