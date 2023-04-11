@@ -135,6 +135,9 @@
             "projectReferences": {
               "C:\\Users\\rosti\\source\\repos\\Rocky\\Rocky_Models\\Rocky_Models.csproj": {
                 "projectPath": "C:\\Users\\rosti\\source\\repos\\Rocky\\Rocky_Models\\Rocky_Models.csproj"
+              },
+              "C:\\Users\\rosti\\source\\repos\\Rocky\\Rocky_Utility\\Rocky_Utility.csproj": {
+                "projectPath": "C:\\Users\\rosti\\source\\repos\\Rocky\\Rocky_Utility\\Rocky_Utility.csproj"
               }
             }
           }

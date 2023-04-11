@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Rocky_DataAccess;
+using Rocky_DataAccess.Data;
 
 namespace Rocky_DataAccess.Migrations
 {

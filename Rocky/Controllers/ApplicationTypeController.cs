@@ -4,7 +4,6 @@ using Rocky_Models;
 using Rocky_Utility;
 using System.Collections;
 using System.Collections.Generic;
-using Rocky_DataAccess.Data;
 using Rocky_DataAccess.Repository.IRepository;
 
 namespace Rocky.Controllers

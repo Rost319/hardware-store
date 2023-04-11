@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Rocky_Models;
 
-namespace Rocky_DataAccess
+namespace Rocky_DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -18,5 +18,7 @@ namespace Rocky_DataAccess
         public DbSet<ApplicationType> ApplicationType { get; set; }
         public DbSet<Product> Product { get; set; }
         public DbSet<ApplicationUser> ApplicationUser { get; set; }
+        public DbSet<InquiryHeader> InquiryHeader { get; set; }
+        public DbSet<InquiryDetail> InquiryDetail { get; set; }
     }
 }
