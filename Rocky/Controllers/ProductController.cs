@@ -105,7 +105,8 @@ namespace Rocky.Controllers
                     productVM.Product.Image = fileName + extension;
 
                     _prodRepo.Add(productVM.Product);
-                    
+                    TempData[WC.Success] = "Product created Successfully";
+
                 }
                 else
                 {
@@ -139,6 +140,7 @@ namespace Rocky.Controllers
                         productVM.Product.Image = objFromDb.Image;
                     }
                     _prodRepo.Update(productVM.Product);
+                    TempData[WC.Success] = "Product update Successfully";
                 }
 
 
@@ -149,7 +151,7 @@ namespace Rocky.Controllers
             productVM.CategorySelectList = _prodRepo.GetAllDropdownList(WC.CategoryName);
             productVM.ApplicationTypeSelectList = _prodRepo.GetAllDropdownList(WC.ApplicationTypeName);
 
-
+            TempData[WC.Error] = productVM.Product.Id == 0 ? "Error while creating product" : "Error while update product";
             return View(productVM);
         }
 
@@ -184,6 +186,7 @@ namespace Rocky.Controllers
             var obj = _prodRepo.Find(id.GetValueOrDefault());
             if (obj == null)
             {
+                TempData[WC.Error] = "Error while delete product";
                 return NotFound();
             }
 
@@ -197,6 +200,7 @@ namespace Rocky.Controllers
 
             _prodRepo.Remove(obj);
             _prodRepo.Save();
+            TempData[WC.Success] = "Product delete Successfully";
             return RedirectToAction("Index");
 
         }

@@ -497,3 +497,6 @@ C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\refint\Rocky.dll
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.pdb
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Rocky.genruntimeconfig.cache
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\ref\Rocky.dll
+C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Inquiry\Details.cshtml.g.cs
+C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Inquiry\Index.cshtml.g.cs
+C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_Notifications.cshtml.g.cs

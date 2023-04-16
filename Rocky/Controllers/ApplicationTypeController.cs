@@ -4,6 +4,7 @@ using Rocky_Models;
 using Rocky_Utility;
 using System.Collections;
 using System.Collections.Generic;
+using Rocky_DataAccess.Data;
 using Rocky_DataAccess.Repository.IRepository;
 
 namespace Rocky.Controllers
@@ -39,8 +40,10 @@ namespace Rocky.Controllers
             {
                 _appTypeRepo.Add(obj);
                 _appTypeRepo.Save();
+                TempData[WC.Success] = "Application Type created Successfully";
                 return RedirectToAction("Index");
             }
+            TempData[WC.Error] = "Error while creating application type";
             return View(obj);
         }
 
@@ -66,8 +69,10 @@ namespace Rocky.Controllers
             {
                 _appTypeRepo.Update(obj);
                 _appTypeRepo.Save();
+                TempData[WC.Success] = "Application Type edit Successfully";
                 return RedirectToAction("Index");
             }
+            TempData[WC.Error] = "Error while edit application type";
             return View(obj);
         }
 
@@ -93,11 +98,13 @@ namespace Rocky.Controllers
 
             if (obj == null)
             {
+                TempData[WC.Error] = "Error while delete application type";
                 return NotFound();
             }
 
             _appTypeRepo.Remove(obj);
             _appTypeRepo.Save();
+            TempData[WC.Success] = "Application Type delete Successfully";
             return RedirectToAction("Index");
             
         }
