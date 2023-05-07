@@ -502,3 +502,4 @@ C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Inquiry\Ind
 C:\Users\rosti\source\repos\Rocky\Rocky\obj\Debug\net5.0\Razor\Views\Shared\_Notifications.cshtml.g.cs
 C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\Braintree.dll
 C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Users\rosti\source\repos\Rocky\Rocky\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.Facebook.dll
