@@ -34,7 +34,7 @@ using Rocky_Utility;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42e84a0438240a853920894987cd7871ccc5ef5f", @"/Views/Shared/_IndividualProductCard.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d879588a5d757b9e10ffe8da55da96f951f008eb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6bf95cd426d3c4f7c3816bb278dffd66984d43b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_Shared__IndividualProductCard : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Rocky_Models.Product>
     #nullable disable

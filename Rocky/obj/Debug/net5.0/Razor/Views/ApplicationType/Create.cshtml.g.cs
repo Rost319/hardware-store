@@ -27,7 +27,7 @@ using Rocky_Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9118c2337f9cdb47a9bc40932c8a78645b0a3a75", @"/Views/ApplicationType/Create.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"d879588a5d757b9e10ffe8da55da96f951f008eb", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"e6bf95cd426d3c4f7c3816bb278dffd66984d43b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
     public class Views_ApplicationType_Create : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Rocky_Models.ApplicationType>
     #nullable disable
